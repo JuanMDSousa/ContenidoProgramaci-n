@@ -1,0 +1,99 @@
+<!-- Esto es un comentario HTML, los comentarios en el código no se toman en cuenta
+al momento de renderizar la página. Son libres de hacer los que quieran :) -->
+<!DOCTYPE html>
+<html>
+    <!-- El bloque HEAD es para cargar archivos
+    y definir configuración propia de la página -->
+    <head>
+        <!-- Aquí se configura la codificación -->
+        <!-- UTF-8 admite la mayoría de los caracteres (tildes, Ñ, etc) -->
+        <meta charset="utf-8">
+
+        <!-- Aquí se configura el título de la página -->
+        <title>TITULO</title>
+
+        <!-- También se puede agregar código CSS -->
+        <style media="screen">
+            /* Este código CSS cambia el color de fondo (background)
+            y color de la letra (color) de los botones de clase "boton-lacra" */
+            .boton-lacra{
+                background:black;
+                color:white;
+            }
+
+            td{
+                border:1px solid black;
+            }
+
+            /* En CSS, se comenta distinto que en HTML :) */
+        </style>
+        <!-- Se cierra el bloque HEAD -->
+    </head>
+    <!-- Ahora, en la etiqueta BODY, están los elementos que son visibles
+    en la página. A su vez, se puede escribir código CSS usando la etiqueta
+    style (la misma que se usó en el header) -->
+    <body>
+        <h1>EJEMPLO</h1>
+        <h1>Esto es un título</h1>
+        <h2>Esto es un título más pequeño</h2>
+        <h3>Y pequeño...</h3>
+        <h4>Y pequeño...</h4>
+        <h5>Más pequeño...</h5>
+        <p>
+            Hasta llegar a ser un párrafo y bla bla bla bla bla
+            bla bla bla bla bla bla bla...
+        </p>
+        <small>pero hay texto más pequeño aún</small>
+        <strong>o texto en negrita</strong>
+        <br> <!-- Esto es un espacio en blanco -->
+        <br>
+        <h1>LINKS</h1>
+        <p>Y puedes tener <a href="http://www.twitter.com/juanmadsousa" target="_blank">LINKS</a> a cualquier dirección :)</p>
+        <!-- También pueden hacer tablas -->
+        <br>
+        <h1>INPUTS</h1>
+        <input type="text" name="" value="" placeholder="Escribe texto">
+        <br>
+        <br>
+        <textarea name="name" rows="8" cols="80" placeholder="Aquí puedes escribir más texto"></textarea>
+        <br>
+        <br>
+        <select class="" name="">
+            <option value="" disabled>Aquí puedes predefinir las opciones</option>
+            <option value="">Opción 1</option>
+            <option value="">Opción 2</option>
+            <option value="">Decídete, carajita gafa</option>
+        </select>
+        <br>
+        <br>
+        <h1>TABLAS</h1>
+        <table>
+            <tr>
+                <td>Columna 1</td>
+                <td>Columna 2</td>
+                <td>Columna 3</td>
+                <td>Columna 4</td>
+            </tr>
+            <tr>
+                <td>Valor 1</td>
+                <td>Valor 2</td>
+                <td>Valor 3</td>
+                <td>Valor 4</td>
+            </tr>
+        </table>
+        <br>
+        <!-- Puedes tener botones -->
+        <h1>BOTONES</h1>
+        <br>
+        <button type="button" name="button">BOTON 1</button>
+        o
+        <button type="button" class="boton-lacra" name="button">BOTON 2 (CON CSS)</button>
+        <br>
+        <h1>IMÁGENES</h1>
+        <img src="https://pbs.twimg.com/media/DVHAK2KWsAAxQ85.jpg" alt="" style="height:300px;width:300px">
+        <br>
+        <h1>GIF</h1>
+        <img src="https://s-media-cache-ak0.pinimg.com/originals/a5/13/95/a513957580e2b03ca839fe3d77af70c2.gif" alt="">
+
+    </body>
+</html>
